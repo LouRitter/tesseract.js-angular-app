@@ -1,11 +1,13 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
-    Welcome to {{ title }}!
+    Image Transcriber
   </h1>
-  <img src="https://tesseract.projectnaptha.com/img/eng_bw.png" width="50%" />
+  <input #imageInput (change)="processFile(imageInput)" type="file" accept="image/*" capture="camera" />
+
   <h2>Result: </h2>
   <p>
     {{ ocrResult }}
   </p>
+
 </div>

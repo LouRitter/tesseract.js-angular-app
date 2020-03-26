@@ -1,0 +1,13 @@
+[debug] [2020-03-26T17:08:36.544Z] ----------------------------------------------------------------------
+[debug] [2020-03-26T17:08:36.545Z] Command:       /usr/local/bin/firebase /Users/louisritter/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2020-03-26T17:08:36.546Z] CLI Version:   7.15.0
+[debug] [2020-03-26T17:08:36.546Z] Platform:      darwin
+[debug] [2020-03-26T17:08:36.546Z] Node Version:  v12.13.1
+[debug] [2020-03-26T17:08:36.547Z] Time:          Thu Mar 26 2020 13:08:36 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-03-26T17:08:36.547Z] ----------------------------------------------------------------------
+[debug] [2020-03-26T17:08:36.547Z] 
+[debug] [2020-03-26T17:08:36.554Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-26T17:08:36.554Z] > authorizing via signed-in user
+[debug] [2020-03-26T17:08:36.554Z] [iam] checking project imagetexttranscriber for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-03-26T17:08:36.556Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/imagetexttranscriber:testIamPermissions  
+
